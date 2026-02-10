@@ -1,0 +1,5 @@
+update-upstream:
+	git checkout main
+	git fetch upstream
+	git rebase upstream/main
+	git push origin main
